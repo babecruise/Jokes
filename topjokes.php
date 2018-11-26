@@ -15,7 +15,7 @@ $conn = mysqli_connect("localhost", "root", "Green200%", "jokes");
 $result = mysqli_query($conn, $sql); 
 
 while ($row = mysqli_fetch_assoc($result)) {
-    echo $row['id']. " ".$row["task"];
+    echo $row['setup']. " ".$row["punchline"];
 
 }
 
